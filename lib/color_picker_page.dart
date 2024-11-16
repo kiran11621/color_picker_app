@@ -55,7 +55,9 @@ class _ColorPickerPageState extends State<ColorPickerPage> {
             height: 350,
             width: 350,
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(10),
+              borderRadius: BorderRadius.circular(
+                10,
+              ),
               color: _pickedColor,
             ),
           ),
